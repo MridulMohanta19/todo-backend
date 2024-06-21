@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 app.use(bodyParser.json());
-const origin = 'http://localhost:3000';
+const origin = 'https://todo-app-mm.vercel.app/';
 app.use(cors({
   credentials: true,
   origin
